@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.report-section {
+  background: linear-gradient(90deg, #f0fdf9, #fff, #fef5ed); /* Match gradient colors */
+  text-align: center;
+  padding: 120px 0;
+  width: 100%;
+  margin:0px 0px;
+}
+.report-title {
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #333;
+}
+.report-subtitle {
+  font-size: 1.5rem;
+  color: #777;
+}
+.header-container {
+  background: #fff; /* Example gradient from image */
+  
+  border-radius: 8px;
+}
+.header-logo {
+  max-width: 150px;
+  height: auto;
+}
+.text-muted {
+  margin: 0;
+}
+.metrics-box {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.metrics-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+.chart {
+  max-width: 200px;
+}
+.table thead th {
+  background-color: #f1f1f1;
+}
+.table-container {
+  overflow-x: auto;
+}
+
+.card .percentage {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.card .percentage.up {
+  background-color: #28a745;
+}
+.card .percentage.down {
+  background-color: #dc3545;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.chart {
+  height: 150px;
+}
+.percentage {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+.percentage.up {
+  background-color: #28a745;
+}
+.percentage.down {
+  background-color: #dc3545;
+}
+.pie-chart {
+  width: 100%;
+  height: 150px;
+}
+.thank-you-section {
+  background-color: #242A3A;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+.thank-you-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.divider {
+  height: 2px;
+  background-color: #28a745;
+  width: 80%;
+  margin: 20px auto;
+}
+.contact-info {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.contact-info i {
+  margin-right: 8px;
+}
+.company-logo {
+  margin-top: 20px;
+}
+.company-logo img {
+  max-height: 50px;
+}
+.iso-cert {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #ccc;
+}
+.search{
+    font-weight: bold;
+    font-size: 36px;
+}
+.cards{
+    gap:18px;
+}
+.green-color{
+    color: #43922A;
+    font-size: 18px;
+}
+.card-desc{
+    font-size: 12px;
+    color:#8A8A8A;
+    
+}
+.custom-gap {
+gap: 7px;
+}
